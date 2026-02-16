@@ -1,5 +1,10 @@
 # Nordigen CLI
 
+<p align="center">
+  <img src="banner.png" alt="KTMCP Banner" width="100%">
+</p>
+
+
 Production-ready command-line interface for the Nordigen Account Information Services API (Open Banking).
 
 ## Features
