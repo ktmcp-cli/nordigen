@@ -1,0 +1,40 @@
+{
+  "name": "@ktmcp-cli/nordigen",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for Nordigen Account Information Services API (Open Banking)",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "nordigen": "./bin/nordigen.js"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "lint": "eslint src/**/*.js",
+    "start": "./bin/nordigen.js"
+  },
+  "keywords": [
+    "nordigen",
+    "open-banking",
+    "psd2",
+    "financial",
+    "banking",
+    "cli",
+    "api"
+  ],
+  "author": "KTMCP",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "conf": "^13.0.0",
+    "node-fetch": "^3.3.2",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
