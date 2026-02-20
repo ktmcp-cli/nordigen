@@ -1,11 +1,11 @@
 {
-  "name": "@ktmcp-cli/nordigencom",
+  "name": "@ktmcp-cli/nordigen",
   "version": "1.0.0",
   "description": "Production-ready CLI for Nordigen Account Information Services API - open banking, bank accounts, transactions",
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "nordigencom": "bin/nordigencom.js"
+    "nordigen": "bin/nordigen.js"
   },
   "keywords": [
     "nordigen",
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ktmcp-cli/nordigencom.git"
+    "url": "git+https://github.com/ktmcp-cli/nordigen.git"
   },
-  "homepage": "https://killthemcp.com/nordigencom-cli",
+  "homepage": "https://killthemcp.com/nordigen-cli",
   "bugs": {
-    "url": "https://github.com/ktmcp-cli/nordigencom/issues"
+    "url": "https://github.com/ktmcp-cli/nordigen/issues"
   }
 }
